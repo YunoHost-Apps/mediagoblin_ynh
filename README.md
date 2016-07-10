@@ -5,11 +5,6 @@ that anyone can run.
 
 **Shipped version:** 0.9.0
 
-## Requirements
-
-It now requires at least Debian Jessie with *systemd* and the current testing
-version of [YunoHost](https://yunohost.org/) (>= 2.3.6).
-
 ## Features
 
 The supported and activated Media types are:
@@ -28,7 +23,7 @@ to the source code.
 It is also possible to enable registration using *basic_auth* plugin too which
 will rely on the MediaGoblin internal authentication - and not YunoHost one.
 Both authentication mechanism will be available in that case. Please note
-that YunoHost users will have to log in through the SSO and not the ediaGoblin
+that YunoHost users will have to log in through the SSO and not the MediaGoblin
 login page.
 
 ## Installation
