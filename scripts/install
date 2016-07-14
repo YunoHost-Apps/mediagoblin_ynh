@@ -79,6 +79,9 @@ exec_cmd "cd \"${DESTDIR}\" \
  && ${DESTDIR}/bin/python ./setup.py develop" &>$SETUPLOG \
   || ynh_die "Unable to set up MediaGoblin. Please see log at ${SETUPLOG}"
 
+# Ensure than PostgreSQL is started
+sudo service postgresql start
+
 # Configure the database
 exec_cmd "cd && createuser -D -R -S ${dbuser}" postgres
 exec_cmd "cd && createdb -E UNICODE -O ${dbuser} ${dbname}" postgres
