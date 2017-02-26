@@ -1,5 +1,9 @@
 # GNU MediaGoblin for YunoHost
 
+**CAUTION:** the application is currently not maintained anymore and the installation
+seems to fail on recent YunoHost version (see [#8](https://github.com/jeromelebleu/mediagoblin_ynh/issues/8)
+and [#9](https://github.com/jeromelebleu/mediagoblin_ynh/issues/9)). Feel free to contribute!
+
 [MediaGoblin](http://mediagoblin.org/) is a free software media publishing platform
 that anyone can run.
 
