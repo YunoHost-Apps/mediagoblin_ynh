@@ -1,5 +1,7 @@
 # GNU MediaGoblin for YunoHost
 
+NOTWORKING
+
 **CAUTION:** the application is currently not maintained anymore and the installation
 seems to fail on recent YunoHost version (see [#8](https://github.com/jeromelebleu/mediagoblin_ynh/issues/8)
 and [#9](https://github.com/jeromelebleu/mediagoblin_ynh/issues/9)). Feel free to contribute!
