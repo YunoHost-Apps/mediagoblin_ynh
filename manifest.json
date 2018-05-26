@@ -1,19 +1,21 @@
 {
   "name": "MediaGoblin",
   "id": "mediagoblin",
+  "packaging_format": 1,
   "description": {
     "en": "A free software media publishing platform",
     "fr": "Plateforme de diffusion de différents types de multimédia"
   },
+  "url": "https://mediagoblin.org/",
   "version": "0.9.0",
-  "license": "AGPL-3",
+  "license": "AGPL-3.0&CC0-1.0&LGPL-3.0",
   "maintainer": {
     "name": "jerome",
     "email": "jerome@yunohost.org"
   },
   "multi_instance": false,
   "requirements": {
-    "yunohost": ">= 2.4.1"
+    "yunohost": ">= 2.7.5"
   },
   "services": [
     "mediagoblin-paster",
